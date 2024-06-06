@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quick Clinic</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> 
+       <!-- Add this line to include jQuery -->
+
+
+
+    <style>
+
+.green-heading {
+        color: green;
+    }
+
+        /* Styles for the review card */
+        .owl-carousel .owl-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .cardf {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 300px;
+            margin: 0 auto;
+            overflow: hidden; /* Hide overflowing content */
+        }
+
+        .cardf .mt-2 {
+            margin-top: 10px;
+        }
+
+        .cardf .testimonialf {
+            margin-top: 15px;
+            font-size: 16px;
+            line-height: 1.5;
+            overflow: hidden; /* Hide overflowing content */
+            text-overflow: ellipsis; /* Add ellipsis for long text */
+            white-space: nowrap; /* Prevent wrapping */
+        }
+
+        .cardf .profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 15px;
+        }
+
+        .cardf .profile .name {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .cardf .profile .designation {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+    <meta name="description" content="MFC is Best Hospital in Abu Dhabi providing state-of-the-art, quality, & integrated healthcare for all, in conformance to service delivery standards.">
+    <meta name="keywords" content="MFC Hospital Gujat, Best Hospital in Abu Dhabi, Best Hospital in UAE, Top Hospital in Abu Dhabi, Top Hospital in UAE">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="index.html">
+    <!-- Favicons -->
+    <link type="image/x-icon" href="front/images/IMC_icon.png" rel="icon">
+   <!--Slick caurosal-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="patient/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="patient/assets/plugins/fontawesome/css/all.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="patient/assets/css/style.css">
+
+    <!-- HTML Meta Tags -->
+    <title>Quick Clinic</title>
+    <meta name="description" content="MFC is Best Hospital in Abu Dhabi providing state-of-the-art, quality, & integrated healthcare for all, in conformance to service delivery standards.">
+    <!-- Css Files-->
+    <link rel="stylesheet" href="front/css/style.css">
+    <link href="front/css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="front/css/responsive.css">
+    <link rel="stylesheet" href="nivo/css/nivo-slider.css">
+    <link rel="stylesheet" type="text/css" href="nivo/css/style.css">
+</head>
+<body>
+    <header id="my-header">
+        <!--header started-->
+        <div class="header-main-wraper">
+            <div class="container-fluid header-container-css">
+                <div class="row ">
+                    <!--logo-->
+                    <div class="col-md-3 p-2 header-logo-wrps">
+                        <div class="logo-wraper">
+                            <a href="index.html"> <img src="patient/assets/img/logo.svg" width="324px" height="73px" alt="logo"> </a>
+                        </div>
+                    </div>
+                    <!--//logo-->
+                    <!--header topbar bottom navigation-->
+                    <div class="col-md-9">
+                        <div class="header-wraper">
+                            <!--topbar-->
+                            <div class="topbar-wraper">
+                                <div class="row ">
+                                    <!--email-->
+                                    <div class="col-md-8">
+                                        <!-- <div class="top-email-wraper"> <span><a href="mailto:info@mfc.com"> <img src="front/images/top-icon1.jpg" width="16px" height="12px" alt="icon">info@mfc.com</a></span>
+                                            <span><a href="tel:+923371438050"> <img src="front/images/top-icon2.jpg" width="17px" height="16px" alt="icon">+(92-37) 37178901-4 </a></span>
+                                            <span><a href="tel:03371438050"> <b>UAN:</b> 0339-5438050 </a></span>
+                                        </div> -->
+                                    </div>
+                                    <!--email-->
+                                </div>
+                            </div>
+                            <!--topbar-->
+                            <!--botton navigation-->
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="bottom-header-navigation">
+                                        <ul>
+                                            <li> <a href="index.html"> Home </a> </li>
+                                            <li> <a href="about-us.html"> About Us </a> </li>
+
+                                            <li>
+                                                <div class="dropdown">
+                                                    <!-- <a href="department.html" class="dropbtn header-services-border">Services & Departments&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a> -->
+                                                    <div class="dropdown-content header-content-dropdown">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <img class="header-content-a" src="front/images/manu-image.jpg" alt="MFC hospital">
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="pt-4">
+                                                                    <a href="surgicare.html">Advance Surgery</a>
+                                                                    <a href="anesthesia.html">Anesthesia</a>
+                                                                    <a href="cardiology.html">Cardiology & Cardiac Care</a>
+                                                                    <a href="cardiothoracic-surgery.html">Cardiothoracic Surgery</a>
+                                                                    <a href="endocrinology.html">Endocrinology, Diabetes and Metabolism</a>
+                                                                    <a href="gastroenterology.html">Gastroenterology & Hepatology </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li> <a href="our-specialities.html"> Quick Clinic Doctors </a> </li>
+                                            <!-- <li>
+                                                <a class="header-services-border" href="Family-management.html"> Family Management</a>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <!-- 
+                  <div class="button-appointment"> <a href="#"> Login <span><img src="#" alt="arrow"></span> </a> </div> -->
+                                    <!-- <div class="button-appointment"> <a href="my-login.html" class="change-color-button"> Login <span><img class="btn-margin" src="storage/assets/images/indexpage/arrow.png" width="15px" height="11px" alt="arrow"></span> </a> </div> -->
+                                </div>
+                            </div>
+                            <!--botton navigation-->
+                        </div>
+                        <div class="menusitebar-main-wraper">
+                            <!--menu right-->
+                            <input type="checkbox" class="check" id="checked">
+                            <label class="menu-btn" for="checked"> <span class="bar top"></span> <span class="bar middle"></span> <span class="bar bottom"></span> </label>
+                            <label class="close-menu" for="checked"></label>
+                            <nav class="drawer-menu">
+                                <ul>
+                                    <li> <a href="index.html"> Home </a> </li>
+                                    <li> <a href="about-us.html"> About Us </a> </li>
+                                    <!-- <li> <a href="department.html"> Services & Departments&nbsp;</a> </li> -->
+                                    <li> <a href="our-doctors.html"> MFC Doctors </a> </li>
+
+                                    <!-- <li><a href="Family-management.html"> Family management</a> </li> -->
+                                </ul>
+
+                                <div class="button-appointment text-center"> <a href="my-login.html" class="change-color-button"> Login <span><img src="storage/assets/images/indexpage/arrow.png" width="15px" height="11px" alt="arrow"></span> </a> </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--header topbar bottom navigation-->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider-area slider-wraper">
+        <div class="slider-wrapper">
+
+            <div class="slider-active">
+                <img width="1920" src="nivo/images/Slider.jpg" alt="MFC Hospital" title="#slider-content-1">
+                <img width="1920" src="nivo/images/Main.jpg" alt="MFC Hospital">
+                <img width="1920" src="nivo/images/slider3.jpg" alt="MFC Hospital">
+                <img width="1920" src="nivo/images/slider4.jpg" alt="MFC Hospital">
+            </div>
+
+            <div class="slider-content" id="slider-content-1">
+                <div class="slider-text-main-wraper">
+                    <div class="" data-aos="fade-up">
+                        <h1 class="home-h1">
+                            Quick Clinic
+                        </h1>
+
+                        <h2 class="top-image-text"> <span>WE CARE ABOUT</span><br> Your Health
+                        </h2>
+
+                        <p class="top-image-text">QUICK CLINIC Hospital is best providing state-of-the-art, quality, &amp; integrated healthcare for all, in conformance to service delivery standards.</p>
+
+                        <div class="slider-button-wrp top-image-button"> <a href="about-us.html"> About Us <span><img class="btn-height" src="storage/assets/images/indexpage/arrow.png" width="15px" height="11px" alt="arrow"></span></a> <a href="contact-us.html" class="change-color-button"> Contact Us <span><img class="btn-height" src="storage/assets/images/indexpage/arrow.png" width="15px" height="11px" alt="arrow"></span> </a>                            </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="slider-content" id="slider-content-2">
+        <div class="slider-description">
+          <div class="slider-bg animated zoomIn">
+            <h2>Business our company</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+      </div>
+      <div class="slider-content" id="slider-content-3">
+        <div class="slider-description">
+          <div class="slider-bg animated zoomIn">
+            <h2>Lets start business</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+      </div>
+      <div class="slider-content" id="slider-content-4">
+        <div class="slider-description">
+          <div class="slider-bg animated zoomIn">
+            <h2>Lets start business</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+      </div> -->
+        </div>
+    </section>
+
+    <div class="content-wraper">
+
+
+
+        <!--call to action section-->
+
+        <div class="call-to-action-main-wraper blue-index-image">
+
+            <div class="container">
+                <!--    <div class="row">
+
+          <div class="col-md-2 col-sm-4 col-xs-8">
+
+          <div class="calltoaction-image "> <img src="https://imchospital.com.pk/front/images/icon-category.webp" width="214px" height="259px"alt="image"> </div>
+
+          </div>
+
+        </div> -->
+
+                <ul class="row">
+
+                    <!-- <li class="col-md-4 col-sm-6 col-xs-12">
+
+                        <div class="listing-calltoaction-wraper">
+
+                            <div class="listing-calltoaction-icon"> <img src="front/images/Our-Doctors_New.png" width="60px" height="62px" alt="MFC doctors mfc hospital "> </div>
+
+                            <h3> Our Doctors </h3>
+
+                            <h4>Choose by Name & Specialties</h4>
+
+                            <div class="slider-button-wrp"> <a href="our-doctors.html" class="change-color-button"> Find a Doctor <span><img class="arrow-margin" src="storage/assets/images/indexpage/arrow.png" width="15px" height="11px" alt="arrow"></span> </a> </div>
+
+                        </div>
+
+                    </li>
+
+                    <li class="col-md-4 col-sm-6 col-xs-12">
+
+                        <div class="listing-calltoaction-wraper">
+
+                            <div class="listing-calltoaction-icon"> <img src="front/images/Request-appointment_New.png" width="60px" height="62px" alt="MFC doctors MFC hospital  onlie appoinment"> </div>
+
+                            <h3> Request an Appointment </h3>
+
+                            <h4> Appointments & Referrals </h4>
+
+                            <div class="slider-button-wrp"> <a href="my-login.html" class="change-color-button"> Appointments<span><img class="arrow-margin" src="storage/assets/images/indexpage/arrow.png" width="15px" height="11px" alt="arrow"></span> </a> </div>
+
+                        </div>
+
+                    </li> -->
+
+                    <!-- <li class="col-md-4 col-sm-6 col-xs-12">
+
+                        <div class="listing-calltoaction-wraper">
+
+                            <div class="listing-calltoaction-icon"> <img src="front/images/Visitors-Info_New.png" width="60px" height="62px" alt=" doctors mfc hospital  onlie appoinment"> </div>
+
+                            <h3> Visitors Information </h3>
+
+                            <h4> Maps & Guide </h4>
+
+                            <div class="slider-button-wrp"> <a href="visitor-information.html" class="change-color-button"> Visitors Guide <span><img class="arrow-margin" src="storage/assets/images/indexpage/arrow.png" width="15px" height="11px" alt="arrow"></span> </a> </div>
+
+                        </div>
+
+                    </li> -->
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!--call to action section-->
+
+
+
+        <!--why choose-->
+
+        <div class="why-choose-imc-wraper img-fluid why-choose-image" id="whychoosemfc">
+
+            <div class="container">
+
+                <h3> Why Choose <span>QUICK CLINIC</span> </h3>
+
+
+
+                <ul class="row">
+
+
+                    <li class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+
+                        <div class="listing-whychoose-wraper">
+
+                            <div class="listing-whychoose-icon"><img src="assets/images/indexpage/1629700069why-choose-image1.png" width="62px" height="65px" alt="MFC doctors MFC hospital  onlie appoinment"></div>
+
+                            <h5>Seamless Experience</h5>
+
+                            <div class="border-line"> </div>
+
+                            <p> Constantly striving to provide standardized care building on a mutual level of trust, respect, and shared responsibility...
+                                <!--<a href="https://imchospital.com.pk/more-experience/1">Read more</a> </p> -->
+
+                        </div>
+
+                    </li>
+
+
+                    <li class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+
+                        <div class="listing-whychoose-wraper">
+
+                            <div class="listing-whychoose-icon"><img src="assets/images/indexpage/1629700106why-choose-image2.png" width="62px" height="65px" alt="MFC doctors MFC hospital  onlie appoinment"></div>
+
+                            <h5>Personalized Care</h5>
+
+                            <div class="border-line"> </div>
+
+                            <p> Using advanced technology and ways of treatment for delivering personalized and participatory healthcare services.
+                                <!--<a href="https://imchospital.com.pk/more-experience/2">Read more</a> </p> -->
+
+                        </div>
+
+                    </li>
+
+
+                    <li class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+
+                        <div class="listing-whychoose-wraper">
+
+                            <div class="listing-whychoose-icon"><img src="assets/images/indexpage/1629700148why-choose-image3.png" width="62px" height="65px" alt="MFC doctors MFC hospital  onlie appoinment"></div>
+
+                            <h5>Global Expertise</h5>
+
+                            <div class="border-line"> </div>
+
+                            <p> Matchless expertise are offered in multiple specialties using cutting-edge medical facilities and high-quality services.
+
+
+                        </div>
+
+                    </li>
+
+
+                    <li class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+
+                        <div class="listing-whychoose-wraper">
+
+                            <div class="listing-whychoose-icon"><img src="assets/images/indexpage/1629700193why-choose-image4.png" width="62px" height="65px" alt="MFC doctors mfc hospital  onlie appoinment"></div>
+
+                            <h5>Support 24/7</h5>
+
+                            <div class="border-line"> </div>
+
+                            <p> QUICK CLINIC Hospital is open and operating 24/07/365 with round-the-clock specialist cover in ICUs and Emergency.
+
+
+                        </div>
+
+                    </li>
+
+
+
+
+                </ul>
+
+            </div>
+
+
+
+        </div>
+
+        <!--why choose MFC-->
+
+
+
+
+
+
+
+        <!--doctor, patient-->
+
+        <div class="doctor-patient-main-wraper" id="doctorspatients">
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <!--doctor-->
+
+                    <div class="col-md-6">
+
+                        <div class="doctor-main-wraper dr-bg-image">
+
+                            <div class="row">
+
+                                <div class="col-md-12">
+
+                                    <div class="doctor-text-wraper">
+
+                                        <h4> For Doctors </h4>
+
+                                        <p>Doctors&#039; portal to explore relevant resources, like digital OPD platform, electronic medical records, and other healthcare material for consultation, including brochures, publications, videos, presentations,
+                                            infographics &amp; more.</p>
+
+                                        <div class="slider-button-wrp"> <a href="doctors-patients-resources.html" class="change-color-button"> View All Doctors Resources <span><img src="storage/assets/images/indexpage/arrow.png" width="15px" height="11px" alt="arrow"></span> </a> </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!--doctor-->
+
+
+
+                    <!--patient-->
+
+                    <div class="col-md-6">
+
+                        <div class="doctor-main-wraper patient-main-wraper pt-bg-image">
+
+                            <div class="row">
+
+                                <div class="col-md-12 ">
+
+                                    <div class="doctor-text-wraper">
+
+                                        <h4> For Patients </h4>
+
+                                        <p>Patients’ portal to search MFC doctors, services, book appointments, request diagnostics, order from MFC Pharmacy and access your health record and lab/diagnostic reports, search about health packages, and consult
+                                            relevant material.</p>
+
+                                        <div class="slider-button-wrp"> <a href="my-login.html" class="change-color-button"> View All Patient Resources <span><img src="storage/assets/images/indexpage/arrow.png" width="15px" height="11px" alt="arrow"></span> </a> </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!--      <div class="col-md-6">
+
+                <div class="doctor-image"> <img src="#" alt="doctor"> </div>
+
+              </div> -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!--patient-->
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--Doctor Speak-->
+        <section class="Docter-speak">
+            <div class="main-docter">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-10 col-lg-8">
+                            <div class="main-doctor-speak">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="doc-speak-head">
+                                                Doctor Speak
+                                            </span>
+                                            <img class="my-left-ico" src="./storage/assets/images/consultants/quo1.png"/>
+                                        </div>
+                                    </div>
+                                    <div class="slidef slide-row row">
+                                        <div class="col-md">
+                                            <div class="main-brand">
+                                                <div class="inner-main-1"> 
+                                                    <img src="./storage/assets/images/consultants/ndocter.jpg"/>
+                                                </div>
+                                                <div class="inner-main-2">
+                                                    <h3>Dr. Muhammad Ehtashem Gujjar</h3>
+                                                    <h5>Ent Surgery</h5>
+                                                    <p class="ds-paragraf">
+                                                        I am Dr. Muhammad wasif, currently working as Assistant Professor at the department of ENT & Head and Neck surgery at Dr. Ziauddin Hospitals.
+                                                        <br>
+                                                        At our department we have excellent state of the art equipments at our clinics including endoscopes and microscopes with projecting LED which enhance our ability to diagnose difficult pathologies.
+                                                        <br>
+                                                        At our department we not only perform routine ENT procedures like Tonsillectomy and Nasal septum surgeries but also endoscopic rhinology and skull base surgeries including CSF Rhinorrhea repair and other tumors. We also routinely perform complex surgeries for Head and Neck cancers and their reconstruction including free flap reconstruction.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="main-brand">
+                                                <div class="inner-main-1"> 
+                                                    <img src="./storage/assets/images/consultants/ndocter.jpg"/>
+                                                </div>
+                                                <div class="inner-main-2">
+                                                    <h3>Dr. Muhammad Ehtashem Gujjar</h3>
+                                                    <h5>Ent Surgery</h5>
+                                                    <p class="ds-paragraf">
+                                                        I am Dr. Muhammad wasif, currently working as Assistant Professor at the department of ENT & Head and Neck surgery at Dr. Ziauddin Hospitals.
+                                                        <br>
+                                                        At our department we have excellent state of the art equipments at our clinics including endoscopes and microscopes with projecting LED which enhance our ability to diagnose difficult pathologies.
+                                                        <br>
+                                                        At our department we not only perform routine ENT procedures like Tonsillectomy and Nasal septum surgeries but also endoscopic rhinology and skull base surgeries including CSF Rhinorrhea repair and other tumors. We also routinely perform complex surgeries for Head and Neck cancers and their reconstruction including free flap reconstruction.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>      
+                                        <div class="col-md">
+                                            <div class="main-brand">
+                                                <div class="inner-main-1"> 
+                                                    <img src="./storage/assets/images/consultants/ndocter.jpg"/>
+                                                </div>
+                                                <div class="inner-main-2">
+                                                    <h3>Dr. Muhammad Ehtashem Gujjar</h3>
+                                                    <h5>Ent Surgery</h5>
+                                                    <p class="ds-paragraf">
+                                                        I am Dr. Muhammad wasif, currently working as Assistant Professor at the department of ENT & Head and Neck surgery at Dr. Ziauddin Hospitals.
+                                                        <br>
+                                                        At our department we have excellent state of the art equipments at our clinics including endoscopes and microscopes with projecting LED which enhance our ability to diagnose difficult pathologies.
+                                                        <br>
+                                                        At our department we not only perform routine ENT procedures like Tonsillectomy and Nasal septum surgeries but also endoscopic rhinology and skull base surgeries including CSF Rhinorrhea repair and other tumors. We also routinely perform complex surgeries for Head and Neck cancers and their reconstruction including free flap reconstruction.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>                                     
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+                        <div class="col-md-3 col-lg-4">
+                                
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+        <!--why choose-->
+
+        <section class="container-fluid section-news section-t8">
+
+        </section>
+
+
+
+
+
+    </div>
+
+    </div>
+
+    <!--Few Reason Why You Should Choose Us -->
+
+    <div class="mian-featured-stories-wraper hospital-bg-image">
+
+
+
+        <!--mfc, featured-->
+
+        <div class="imc-featured-section img-fluid" id="myimcsection">
+
+            <div class="container container-imc-feature">
+
+                <div class="row imc-mobile">
+
+                    <div class="col-md-9 col-sm-8">
+
+
+                    </div>
+
+
+                    <!--      <div class="col-md-6 mt-5 mb-5">
+
+            <div class="featured-stories-wraper">
+
+              <h3 class="mt-1" style="font-size: 36px;"><b>Featured Stories</b></h3>
+
+              <ul>
+
+              
+              </ul>
+
+            </div>
+
+
+          </div> -->
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--      <div class="col-md-6 mt-5 mb-5">
+
+        <div class="featured-stories-wraper">
+
+          <h3 class="mt-1" style="font-size: 36px;"><b>Featured Stories</b></h3>
+
+          <ul>
+
+          
+          </ul>
+
+        </div>
+
+
+      </div> -->
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+    <div class="floating-chat">
+        <i class="fa fa-comments" aria-hidden="true"></i>
+        <div class="chat">
+            <div class="header">
+                <span class="title">
+                    Docter Speak
+                </span>
+                <button class="h-crossbtn">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+                             
+            </div>
+            <ul class="messages">
+                <li class="other">Write a Message</li>
+                <li class="other">For Consulting Doctor</li>
+                <li class="self">Is this For Everyone</li>
+                <li class="other">Yes??</li>
+            </ul>
+            <div class="footer">
+                <div class="text-box" contenteditable="true" disabled="true"></div>
+                <button id="sendMessage">send</button>
+            </div>
+        </div>
+    </div>
+    <!--content-->
+    <!--Reviews section-->
+    <div class="container containerf rounded">
+        <h1 class="text-primary text-center head sliderf-head"><span>QUICK CLINIC</span> Patients Views</h1>
+        <div class="owl-carousel owl-theme sliderf slide-row" id="reviews-container">
+
+
+            <!-- <div class="owl-item">
+                <div class="cardf d-flex flex-column">
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
+                    </div>
+                    
+                    <div class="testimonialf"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
+                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="" class="rounded-circle">
+                        <div class="d-flex flex-column pl-2">
+                            <div class="name">Megan</div>
+                            <p class="text-muted designation">Patient</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            
+
+
+          
+        </div>
+          <h3 style="color: red; text-align: center; margin-bottom: 10px;" id="err-text"></h3>
+        <div>
+        <div class="slidefr-btn-main" >
+            <button id="slidefrbtn-main" class="btn slidefr-btn">Add Review</button>
+        </div>
+
+
+            <div class="container" id="review-add">
+                <h1>Add <span>Review</span></h1>
+                <div class="ratingf" >
+                    <span id="ratingf">0</span>/5
+                </div>
+                <div class="starsf" id="starsf">
+                    <span class="starf"  data-value="1">★</span>
+                    <span class="starf" data-value="2">★</span>
+                    <span class="starf" data-value="3">★</span>
+                    <span class="starf" data-value="4">★</span>
+                    <span class="starf" data-value="5">★</span>
+                </div>
+                <p>Share your review:</p>
+                <textarea id="reviewf"
+                          placeholder="Write your review here" name="review-desc" data-value="" >
+                  </textarea>
+                <div class="submitf-btn">
+                    <button id="submitf" type="submit">Submit</button>
+                </div>
+                <div class="reviewsf" id="reviewsf">
+                </div>
+
+                <h3 style="color: red;" id="err-text"></h3>
+                <h3 style="color: green;" id="success-text"></h3>
+            </div>
+
+
+    </div>
+</div>
+    <!--End Reviews section -->
+    <footer>
+        <footer class="footer">
+
+            <!--footer-->
+
+            <div class="footer-wraper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="my-logo-site logo-site"> <img src="front/images/WhiteMFC.png" width="250px" height="73px" alt="logo">
+
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="row footer-ul">
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="listing-foote-wrp">
+                                <h3> About Quick Clinic Hospital </h3>
+                                <a href="index.html"> &gt;&gt; Home </a>
+                                <a href="about-us.html"> &gt;&gt; About Us </a>
+                                <a href="our-doctors.html"> &gt;&gt; MFC Doctors </a>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="listing-foote-wrp">
+                                <h3> Actions </h3>
+                                <a href="my-login.html"> &gt;&gt; Appointments </a>
+                                <a href="contact-us.html"> &gt;&gt; Contact Us </a>
+                                <a href="my-login.html"> &gt;&gt; My MFC </a>
+    
+                            </div>
+                        </li>
+                        <!-- <li class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="listing-foote-wrp">
+                                <h3> Quick Clinic &amp; Specialities </h3>
+                                <a href="../Ehtesham Gujjar/doctors/Anaesthesia.html"> &gt;&gt; Anaesthesia </a>
+                                <a href="../Ehtesham Gujjar/doctors/Bariatric Surgery.html"> &gt;&gt; Bariatric Surgery </a>
+                                <a href="../Ehtesham Gujjar/doctors/Cardiology.html"> &gt;&gt; Cardiology </a>
+                                <a href="../Ehtesham Gujjar/doctors/Endocrinology.html"> &gt;&gt; Endocrinology </a>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <!--coprights-->
+                <div class="copy-right-wrp copyright-footer">Copyright&nbsp;<i class="fa fa-copyright" aria-hidden="true"></i> 2024 Quick Clinic Hospital. All rights reserved. <br> Powered by QUICK </div>
+            </div>
+            <script src="front/js/aos.js"></script>
+            <script>
+                AOS.init({
+                    offset: 120,
+                    duration: 2000
+                });
+            </script>
+            <script src="patient/assets/js/jquery.min.js"></script>
+            <script src="patient/assets/js/bootstrap.min.js"></script>
+            <!-- Slick JS -->
+            <script src="patient/assets/js/slick.js"></script>
+            <!-- Custom JS -->
+            <script src="patient/assets/js/script.js"></script>
+        </footer>
+        <script src="nivo/js/jquery-3.4.1.min.js"></script>
+        <script src="nivo/js/jquery.nivo.slider.pack.js"></script>
+        <script src="nivo/js/nivo.slider.active.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var element = $('.floating-chat');
+            var myStorage = localStorage;
+
+            if (!myStorage.getItem('chatID')) {
+                myStorage.setItem('chatID', createUUID());
+            }
+
+            setTimeout(function() {
+                element.addClass('enter');
+            }, 1000);
+
+            element.click(openElement);
+
+            function openElement() {
+                var messages = element.find('.messages');
+                var textInput = element.find('.text-box');
+                element.find('>i').hide();
+                element.addClass('expand');
+                element.find('.chat').addClass('enter');
+                var strLength = textInput.val().length * 2;
+                textInput.keydown(onMetaAndEnter).prop("disabled", false).focus();
+                element.off('click', openElement);
+                element.find('.header button').click(closeElement);
+                element.find('#sendMessage').click(sendNewMessage);
+                messages.scrollTop(messages.prop("scrollHeight"));
+            }
+
+            function closeElement() {
+                element.find('.chat').removeClass('enter').hide();
+                element.find('>i').show();
+                element.removeClass('expand');
+                element.find('.header button').off('click', closeElement);
+                element.find('#sendMessage').off('click', sendNewMessage);
+                element.find('.text-box').off('keydown', onMetaAndEnter).prop("disabled", true).blur();
+                setTimeout(function() {
+                    element.find('.chat').removeClass('enter').show()
+                    element.click(openElement);
+                }, 500);
+            }
+
+            function createUUID() {
+                // http://www.ietf.org/rfc/rfc4122.txt
+                var s = [];
+                var hexDigits = "0123456789abcdef";
+                for (var i = 0; i < 36; i++) {
+                    s[i] = hexDigits.substr(Math.floor(Math.random() * 0x10), 1);
+                }
+                s[14] = "4"; // bits 12-15 of the time_hi_and_version field to 0010
+                s[19] = hexDigits.substr((s[19] & 0x3) | 0x8, 1); // bits 6-7 of the clock_seq_hi_and_reserved to 01
+                s[8] = s[13] = s[18] = s[23] = "-";
+
+                var uuid = s.join("");
+                return uuid;
+            }
+
+            function sendNewMessage() {
+                var userInput = $('.text-box');
+                var newMessage = userInput.html().replace(/\<div\>|\<br.*?\>/ig, '\n').replace(/\<\/div\>/g, '').trim().replace(/\n/g, '<br>');
+
+                if (!newMessage) return;
+
+                var messagesContainer = $('.messages');
+
+                messagesContainer.append([
+                    '<li class="self">',
+                    newMessage,
+                    '</li>'
+                ].join(''));
+
+                // clean out old message
+                userInput.html('');
+                // focus on input
+                userInput.focus();
+
+                messagesContainer.finish().animate({
+                    scrollTop: messagesContainer.prop("scrollHeight")
+                }, 250);
+            }
+
+            function onMetaAndEnter(event) {
+                if ((event.metaKey || event.ctrlKey) && event.keyCode == 13) {
+                    sendNewMessage();
+                }
+            }
+        </script>
+        <script>
+            $('.slidef').slick({
+			  dots: false,
+			  nav:false,
+			  infinite: false,
+			  speed: 300,
+			  slidesToShow: 1,
+			  slidesToScroll: 1,
+			  autoplay: false,
+			  autoplaySpeed: 2000,
+			  responsive: [
+				{
+				  breakpoint: 992,
+				  settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true
+				  }
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			  ]
+			});
+        </script>
+        <script>
+             $('.sliderf').slick({
+			  dots: false,
+			  nav:false,
+			  infinite: false,
+			  speed: 300,
+			  slidesToShow: 3,
+			  slidesToScroll: 1,
+			  autoplay: false,
+			  autoplaySpeed: 2000,
+			  responsive: [
+				{
+				  breakpoint: 992,
+				  settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true
+				  }
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			  ]
+			});
+        </script>
+        <script>
+            const stars = document.querySelectorAll(".starf");
+            const rating = document.getElementById("ratingf");
+            const reviewText = document.getElementById("reviewf");
+            const submitBtn = document.getElementById("submitf");
+            const reviewsContainer = document.getElementById("reviewsf");
+
+        stars.forEach((star) => {
+	    star.addEventListener("click", () => {
+		const value = parseInt(star.getAttribute("data-value"));
+		rating.innerText = value;
+
+		// Remove all existing classes from stars
+		stars.forEach((s) => s.classList.remove("one", 
+												"two", 
+												"three", 
+												"four", 
+												"five"));
+
+		// Add the appropriate class to 
+		// each star based on the selected star's value
+		stars.forEach((s, index) => {
+			if (index < value) {
+				s.classList.add(getStarColorClass(value));
+			}
+		});
+
+		// Remove "selected" class from all stars
+		stars.forEach((s) => s.classList.remove("selected"));
+		// Add "selected" class to the clicked star
+		star.classList.add("selected");
+	});
+});
+
+submitBtn.addEventListener("click", async() => {
+	const review = reviewText.value;
+	const userRating = parseInt(rating.innerText);
+   // console.log(review);
+
+	if (!userRating || !review) {
+		alert(
+"Please select a rating and provide a review before submitting."
+			);
+		return;
+	}
+
+	if (userRating > 0) {
+// 		const reviewElement = document.createElement("div");
+// 		reviewElement.classList.add("reviewf");
+// 		reviewElement.innerHTML = 
+// `<p><strong>Rating: ${userRating}/5</strong></p><p>${review}</p>`;
+// 		reviewsContainer.appendChild(reviewElement);
+
+        console.log(`submitted user rating: ${userRating}`);
+        console.log(`submitted user review: ${review}`);
+          
+        try {
+
+              const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+              if(!loggedInUser || !loggedInUser.token){
+                throw new Error("You have to sign in to add a review!");
+              }         
+              
+              
+                const response = await fetch('https://sk-hospital.onrender.com/api/reviews/add', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${loggedInUser.token}`
+                },
+                body: JSON.stringify({
+                    rating: userRating,
+                    description: review
+                })
+            });
+
+            const responseData = await response.json();
+            
+            if(response.status!==201){
+                throw new Error(responseData.message);
+            }
+
+            console.log(responseData.message);
+
+            const reviewAdd = document.getElementById("review-add");
+            const newHeading = document.createElement('h3');
+            newHeading.textContent = responseData.message;
+            newHeading.classList.add('green-heading');
+            reviewAdd.appendChild(newHeading);
+            
+
+            const errorText = document.getElementById("err-text");
+            errorText.innerText = "";
+             
+            setTimeout(() => {
+                window.location.href = "/";
+            }, 1500);
+
+        } catch (error) {
+
+            const errorText = document.getElementById("err-text");
+            successText.innerText = error.message;
+        }
+
+
+		// Reset styles after submitting
+		reviewText.value = "";
+		rating.innerText = "0";
+		stars.forEach((s) => s.classList.remove("one", 
+												"two", 
+												"three", 
+												"four", 
+												"five", 
+												"selected"));
+	}
+});
+
+function getStarColorClass(value) {
+	switch (value) {
+		case 1:
+			return "one";
+		case 2:
+			return "two";
+		case 3:
+			return "three";
+		case 4:
+			return "four";
+		case 5:
+			return "five";
+		default:
+			return "";
+	}
+}
+
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            const toggleBtn = document.getElementById('slidefrbtn-main');
+            const myDiv = document.getElementById('review-add');
+          
+            toggleBtn.addEventListener('click', function() {
+      if (myDiv.style.display === 'none' || myDiv.style.display === '') {
+        myDiv.style.display = 'block';
+      } else {
+        myDiv.style.display = 'none';
+      }
+    });
+        });
+          </script>
+
+
+          <script>
+
+
+
+
+async function fetchData() {
+
+    const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+
+if(!loggedInUser ){
+  window.location.href = "/my-login.html";
+}
+
+       try {
+        
+            // Replace 'api_url' with your actual API endpoint
+              const response = await fetch('https://sk-hospital.onrender.com/api/reviews/all' ,{
+                headers : {
+                    'Content-Type': 'application/json'
+                }
+              });
+
+              const responseData = await response.json();
+                
+              if(response.status===400 || response.status===500){
+                throw new Error(responseData.message);
+              }
+               
+              console.log("response data of reviews : ");
+              console.log(responseData.reviews);
+              if(responseData.reviews.length===0){
+                throw new Error("Currently app has no reviews");
+              }
+              populateOwlCarousel(responseData.reviews);
+
+            } catch (error) {
+                 const errText = document.getElementById("err-text");
+                 errText.innerText = error.message;
+            }   
+    }
+                
+
+        // function populateOwlCarousel(reviewsArray) {
+
+              
+        //     const container = document.getElementById('reviews-container');
+        //     reviewsArray.forEach(review => {
+        //         const reviewDiv = document.createElement('div');
+        //         reviewDiv.classList.add('cardf');
+        //         reviewDiv.innerHTML = `
+        //             <div class="mt-2">`;
+        //         // Adding stars based on rating
+        //         for (let i = 1; i <= review.rating; i++) {
+        //             reviewDiv.innerHTML += `<span class="fas fa-star active-star"></span>`;
+        //         }
+        //         // Adding half star if rating is not an integer
+        //         if (review.rating % 1 !== 0) {
+        //             reviewDiv.innerHTML += `<span class="fas fa-star-half-alt active-star"></span>`;
+        //         }
+        //         reviewDiv.innerHTML += `
+        //             </div>
+        //             <div class="testimonialf">${review.description}</div>
+        //             <div class="d-flex flex-row profile pt-4 mt-auto"> 
+                       
+        //                 <img src="${review.creator.profile_pic ? review.creator.profile_pic : `https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png` }" 
+        //                 alt="" class="rounded-circle">
+        //                 <div class="d-flex flex-column">
+        //                     <div class="name">${review.creator.first_name} ${review.creator.last_name}</div>
+        //                     <p class="designation">Creator</p>
+        //                 </div>
+        //             </div>
+        //         `;
+
+        //         container.appendChild(reviewDiv);
+        //     });
+
+        function populateOwlCarousel(reviewsArray) {
+    const container = document.getElementById('reviews-container');
+    container.innerHTML = ''; // Clear previous content
+
+    reviewsArray.forEach(review => {
+        const owlItemDiv = document.createElement('div');
+        owlItemDiv.classList.add('owl-item');
+
+        const reviewDiv = document.createElement('div');
+        reviewDiv.classList.add('cardf', 'd-flex', 'flex-column');
+
+        let starsHTML = '';
+        for (let i = 1; i <= review.rating; i++) {
+            starsHTML += `<span class="fas fa-star active-star"></span>`;
+        }
+        if (review.rating % 1 !== 0) {
+            starsHTML += `<span class="fas fa-star-half-alt active-star"></span>`;
+        }
+
+        reviewDiv.innerHTML = `
+            <div class="mt-2">${starsHTML}</div>
+            <div class="testimonialf">${review.description}</div>
+            <div class="d-flex flex-row profile pt-4 mt-auto">
+                <img src="${review.creator?.profile_pic ? review.creator?.profile_pic : 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png'}" alt="" class="rounded-circle">
+                <div class="d-flex flex-column pl-2">
+                    <div class="name">${review?.creator?.first_name ?review?.creator?.first_name : "deleted" } ${review?.creator?.last_name ? review?.creator?.last_name : "user"}</div>
+                    <p class="text-muted designation">Creator</p>
+                </div>
+            </div>
+        `;
+
+        owlItemDiv.appendChild(reviewDiv);
+        container.appendChild(owlItemDiv);
+    });
+
+            // Initialize Owl Carousel
+            $(document).ready(function(){
+                $(".owl-carousel").owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    responsive:{
+                        0:{
+                            items: 1
+                        },
+                        600:{
+                            items: 3
+                        },
+                        1000:{
+                            items: 5
+                        }
+                    }
+                });
+            });
+   
+        }
+            
+            window.onload = fetchData;
+
+          </script>
+
+
+
+
+    </footer>
+</body>
+<!-- -->
+
+</html>

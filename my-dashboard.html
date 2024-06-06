@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quick Clinic</title>
+<meta name="description" content="MFC is Best Hospital in Abu Dhabi providing state-of-the-art, quality, & integrated healthcare for all, in conformance to service delivery standards.">
+<meta name="keywords" content="MFC Hospital Gujat, Best Hospital in Abu Dhabi, Best Hospital in UAE, Top Hospital in Abu Dhabi, Top Hospital in UAE">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="my-dashboard.html">
+<link type="image/x-icon" href="front/images/IMC_icon.png" rel="icon">
+  <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="patient/assets/css/bootstrap.min.css">
+  <!-- Fontawesome CSS -->
+<link rel="stylesheet" href="patient/assets/plugins/fontawesome/css/all.min.css">
+  <!-- Main CSS -->
+<link rel="stylesheet" href="patient/assets/css/style.css">
+<style>
+	.card-color {
+		background-color: #fff200;
+		padding: 6px;
+		border-radius: 10px
+	}
+	.button-color {
+		background-color: #fff200;
+	}
+	a {
+        color: #2E3842;
+    }
+</style>     
+<!-- Css Files-->
+<link rel="stylesheet" href="front/css/style.css">
+<link href="front/css/aos.css" rel="stylesheet">
+<link href="front/css/font-awesome.min.css" rel="stylesheet">
+<link href="front/css/owl.carousel.min.css" rel="stylesheet">
+<link rel="stylesheet" href="front/css/responsive.css">
+
+</head>
+<body>
+<div class="main-wrapper">
+    <header class="header the-header">
+        <nav class="navbar navbar-expand-lg header-nav">
+        <a href="index.html" class="navbar-brand logo" width="160" height="57">
+            <img src="patient/assets/img/logo.svg" width="220px" height="73px" alt="logo">
+        </a>
+        <div class="button-appointment"> <a href="index.html"> <small>Visit Website</small> <span><img class="btn-margin" src="front/images/arrow.png" width="15px" height="11px" alt="arrow"></span> </a> </div>
+        <ul class="nav header-navbar-rht ">
+            <li class="nav-item dropdown has-arrow logged-item">
+               
+               
+            </li>
+        </ul>
+    </nav>
+</header>
+    <!-- /Header -->
+
+    <!-- Breadcrumb -->
+
+
+
+    <!-- /Breadcrumb -->
+
+
+
+    <!-- Page Content -->
+
+    <div class="content">
+
+        <div class="container-fluid">
+
+
+
+            <div class="row">
+
+
+
+               <!-- Profile Sidebar -->
+
+               <div class="col-md-3  col-sm-4 theiaStickySidebar">
+                <div
+                    style="border-top: 6px solid; border-bottom: 6px solid; border-color: #0d6a8d; margin-top: 0px; border-radius: 10px; margin-bottom:5px;">
+
+
+                    <div class="profile-sidebar" style="margin-top: 4px; margin-bottom: 4px; border-radius: 7px;">
+
+                        <div class="widget-profile pro-widget-content card-color" style="border-radius: 5px;">
+
+  
+
+                        </div>
+
+                        <div class="dashboard-widget">
+
+                            <nav class="dashboard-menu">
+
+                                <ul>
+
+                                    <li class="">
+
+                                        <a href="/my-dashboard.html">
+
+                                            <i class="fas fa-columns"></i>
+
+                                            <span>Dashboard</span>
+
+                                        </a>
+
+                                    </li>
+
+                                    <li class="">
+
+                                        <a href="/my-appointment.html">
+
+                                            <i class="fas fa-calendar-check"></i>
+
+                                            <span>My Appointments</span>
+
+                                        </a>
+
+                                    </li>
+
+
+                                    <li class="">
+
+                                        <a href="/my-profile-settings.html">
+
+                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+
+                                            <span>Edit Profile</span>
+
+                                        </a>
+
+                                    </li>
+
+                                    <li class="">
+
+
+
+                                        <a href="/patient-change-password.html">
+
+                                            <i class="fa fa-lock" aria-hidden="true"></i>
+
+                                            <span>Change Password</span>
+
+                                        </a>
+
+                                    </li>
+
+                                    <li>
+
+                                        <a onclick="logout()">
+
+                                            <i class="fa fa-sign-out" aria-hidden="true"></i>
+
+                                            <span>Logout</span>
+
+                                        </a>
+
+                                    </li>
+
+
+                                </ul>
+
+                            </nav>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- / Profile Sidebar -->
+
+
+
+                <div class="col-md-9 col-sm-8">
+
+
+                    <div class="col-md-12">
+
+
+
+
+
+                        <form action="" method='post'>
+
+
+
+                            <input type="hidden" name="_token" value="MtaGtyyiQ1hFbL6Vx7xPjcjTVsO6HrWIllaauuH5">                            <div class='input-group'>
+
+
+                                <input type="text" class="form-control" value='' autofocus name='search' placeholder="Find a Doctor by Name or Speciality">
+
+                                <div class="input-group-append">
+
+                                    <button type="submit" class="btn button-color search-btn mt-0"> <i class="fa fa-search"></i></button>
+
+                                </div>
+
+                            </div>
+
+                    </div>
+                    </form>
+                    <br>
+
+                    <div class="row mb-3 p-3">
+                        <br>
+                        <div class="row ">
+                            <div class="col-md-6 col-lg-6 col-sm-12 mb-2">
+
+                                <div class=" card-color">
+
+                                    <a href="/our-specialities.html">
+
+                                        <div class="text-center" style="padding-top: 1%; padding-bottom:1%;">
+                                            <h3 class="mb-3">Book Appoinment</h3>
+                                            <img style="width: 18%; height: auto;" src="https://www.imchospital.com.pk/front/images/Appointment-Icon.png" class="img-fluid" alt="patient">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                           
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer>
+    <footer class="footer">
+
+        <!--footer-->
+
+        <div class="footer-wraper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="my-logo-site logo-site"> <img src="front/images/WhiteMFC.png" width="250px" height="73px" alt="logo">
+
+                        </div>
+                    </div>
+                </div>
+                <ul class="row footer-ul">
+                    <li class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="listing-foote-wrp">
+                            <h3> About MFC Hospital </h3>
+                            <a href="index.html"> &gt;&gt; Home </a>
+                            <a href="about-us.html"> &gt;&gt; About Us </a>
+                            <a href="our-doctors.html"> &gt;&gt; MFC Doctors </a>
+                        </div>
+                    </li>
+                    <li class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="listing-foote-wrp">
+                            <h3> Actions </h3>
+                            <a href="my-login.html"> &gt;&gt; Appointments </a>
+                            <a href="contact-us.html"> &gt;&gt; Contact Us </a>
+                            <a href="my-login.html"> &gt;&gt; My MFC </a>
+
+                        </div>
+                    </li>
+                    <li class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="listing-foote-wrp">
+                            <h3> MFC &amp; Specialities </h3>
+                            <a href="/doctors/Anaesthesia.html"> &gt;&gt; Anaesthesia </a>
+                            <a href="/doctors/Bariatric Surgery.html"> &gt;&gt; Bariatric Surgery </a>
+                            <a href="/doctors/Cardiology.html"> &gt;&gt; Cardiology </a>
+                            <a href="/doctors/Endocrinology.html"> &gt;&gt; Endocrinology </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--coprights-->
+            <div class="copy-right-wrp copyright-footer">Copyright&nbsp;<i class="fa fa-copyright" aria-hidden="true"></i> 2024 MFC Hospital. All rights reserved. <br> Powered by Uog </div>
+        </div>
+<!-- <script src="https://www.imchospital.com.pk/front/js/jquery-1.12.4.min.js"></script> -->
+
+<script src="front/js/aos.js"></script>
+
+<!-- <script src="https://www.imchospital.com.pk/front/js/wow.min.js"></script> -->
+
+<script src="front/js/bootstrap.min.js"></script>
+<script src="front/js/lazysizes.min.js"></script>
+<!-- <script src="https://www.imchospital.com.pk/front/js/bootstrap.js"></script> -->
+
+
+<script src="front/js/owl.carousel.min.js"></script>
+<script>
+  AOS.init({
+    offset: 120,
+    duration: 2000
+  });
+</script>
+
+
+
+
+	<!-- /Footer Bottom -->
+
+
+
+	<!-- /Footer -->
+	<script src="patient/assets/js/jquery.min.js"></script>
+
+	<!-- Bootstrap Core JS -->
+
+	<script src="patient/assets/js/popper.min.js"></script>
+
+	<script src="patient/assets/js/bootstrap.min.js"></script>
+
+	<script src="patient/assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+
+	<script src="patient/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+	<!-- Select2 JS -->
+
+	<!-- <script src="https://www.imchospital.com.pk/patient/assets/plugins/select2/js/select2.min.js"></script> -->
+
+	<!-- Fancybox JS -->
+
+	<!-- <script src="https://www.imchospital.com.pk/patient/assets/plugins/fancybox/jquery.fancybox.min.js"></script> -->
+
+	<!-- Dropzone JS -->
+
+	<script src="patient/assets/plugins/dropzone/dropzone.min.js"></script>
+
+
+
+	<!-- Bootstrap Tagsinput JS 
+
+		<script src="https://www.imchospital.com.pk/patient/assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js"></script> -->
+
+
+
+	<!-- Profile Settings JS -->
+
+	<script src="patient/assets/js/profile-settings.js"></script>
+
+	<!-- Circle Progress JS -->
+
+	<script src="patient/assets/js/circle-progress.min.js"></script>
+
+	<!-- Slick JS -->
+
+	<script src="patient/assets/js/slick.js"></script>
+
+
+
+	<!-- Custom JS -->
+
+	<script src="patient/assets/js/script.js"></script>
+	<script src="dist/sweetalert2.all.min.js"></script>
+
+
+</footer>
+</body>
+
+</html>
+
+<script>
+    $(document).ready(function() {
+
+        // alert(1);
+
+        /*$('.submenu li a').click(function(){
+
+          $(.submenu li a).removeClass("active");
+
+          $(this).addClass("active");
+
+          $('.has-submenu a').removeClass("active");
+
+          $('.has-submenu a').addClass("active");
+
+          
+
+          //$(this).toggleClass("active");
+
+        });*/
+
+    });
+
+    // 
+    window.onload = function() {
+          const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+
+          if(!loggedInUser){
+             window.location.href = "/my-login.html";
+          }
+
+        }
+
+        function logout(){
+        localStorage.removeItem("loggedInUser");
+        window.location.href = "/my-login.html";
+    }
+
+</script>
+

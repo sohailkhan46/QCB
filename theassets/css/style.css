@@ -1,0 +1,89 @@
+/*============== Dashboard Style Starts ==============*/
+.flags-size{
+	width: 42px;
+    height: 42px;
+}
+.profile_labels{
+	font-size: 12px;
+    margin-top: 10px;
+}
+.verified-sign{
+	color: #12910b;
+    float: right;
+}
+.payment-card{
+	width: 65px;
+    display: inline-block;
+    box-shadow: 0px 0px 9px 0px #0000000f;
+    padding: 5px 14px;
+    margin-right: 13px;
+    height: 36px;
+    border-radius: 5px;
+}
+.card-profile-user p{
+	margin-top: 6px;
+    margin-bottom: 11px;
+}
+
+.card-profile-user .profile_labels span{
+	padding-left: 4px;
+}
+
+.main-avatar{
+	margin-right: 15px;
+}
+
+.confirmed-status{
+	font-size: 12px;
+    color: #008726;
+    background-color: #E0EFE4;
+    padding: 4px 16px;
+    border-radius: 5px;
+	width: 99px;
+    text-align: center;
+}
+
+.pending-status{
+	font-size: 12px;
+	color: red;
+    background-color: #FFEEF4;
+	padding: 4px 16px;
+    border-radius: 5px;
+	width: 99px;
+    text-align: center;
+}
+
+.card-transaction span.date{
+	font-size: 13px;
+}
+.announcement-card p.news{
+	padding: 0px 0px 10px 0px;
+}
+
+.announcement-card p.instructions{
+	padding: 0px;
+}
+
+.announcement-card .btn{
+	background-color: #317CF0;
+    color: #fff;
+	padding: 8px 11px;
+    margin: 0 0px 7px; 
+}
+ 
+.announcement-card .btn:hover{
+	box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
+
+.scroll-top{
+	background-color: #317CF0 !important;
+}
+
+
+
+
+
+
+
+
+
